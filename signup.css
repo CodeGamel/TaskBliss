@@ -1,0 +1,67 @@
+.heading-spacing {
+    margin-top: 50px; /* Adjust this value as needed */
+    text-align: left;
+}
+
+/* Log In box w/ shadow */
+.form-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: #2565a5;
+}
+
+.form-card{
+    padding:40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: black;
+    border: 2px solid green;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-control-custom {
+    max-width: 300px; /* Adjust width as needed */
+    width: 100%; /* Responsive width */
+    border-radius: 8px;
+    border-color: green;
+}
+.dropdown-container {
+    margin: 20px 0;
+}
+.form-select-custom {
+    max-width: 300px; /* Adjust width as needed */
+    width: 100%; /* Responsive width */
+}
+.form-control-custom {
+    max-width: 300px; /* Adjust width as needed */
+    width: 100%; /* Responsive width */
+}
+
+.input-container {
+    margin-bottom: 20px; /* Add space below the inputs */
+}
+
+.form-control-custom {
+    max-width: 300px; /* Adjust width as needed */
+    width: 100%; /* Responsive width */
+}
+
+.form-select-sm {
+    max-width: 300px; /* Adjust width as needed */
+}
+
+.header {
+    background-color: #2565a5; /* Light background for the header */
+    padding: 20px 0; /* Add some padding */
+    text-align: center; /* Center the text and buttons */
+}
+
+#logo {
+    height: 60px; /* Adjust size as needed */
+    width: auto;
+    border-radius: 50%;
+    background-color: transparent;
+}

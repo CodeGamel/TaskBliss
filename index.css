@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: monospace;
+}
+
+p {
+    font-size: 24px;
+}
+
+#super-space{
+    margin-top: 500px;
+    text-align: center
+}
+.spacing{
+    margin-bottom: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffffff; /* Adjust color as needed */
+    padding: 20px;
+    font-family: monospace;
+}
+
+.heading-spacing {
+    margin-top: 250px; /* Adjust this value as needed */
+    text-align: center;
+}
+
+
+/* Logo Styling */
+#logo {
+    height: 60px; /* Adjust size as needed */
+    width: auto;
+    border-radius: 50%;
+}
+
+
+.navbar {
+    background-color: #333;
+    font-family: monospace; /* Background color of the navbar */
+}
+
+.navbar-brand {
+    color: #fff; /* Color of the brand link */
+    font-size: 1.5rem; 
+}
+
+.navbar-brand:hover {
+    color: #ddd  /* Color of the brand link on hover */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Color of the navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd; /* Color of navbar links on hover */
+}
+
+/* Dropdown Menu Styling */
+.navbar-nav .dropdown-menu {
+    background-color: #444; /* Background color of the dropdown menu */
+    border: none; /* Remove the border of the dropdown */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #fff; /* Color of the dropdown links */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #555; /* Background color of dropdown links on hover */
+    color: #fff; /* Color of dropdown links on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+    .navbar-nav {
+        float: none; /* Reset float on smaller screens */
+        text-align: center; /* Center align navbar items */
+    }
+
+    .navbar-nav .nav-item {
+        display: block; /* Stack list items vertically */
+        margin: 0; /* Remove margin */
+    }
+
+    .navbar-nav .nav-link {
+        padding: 15px 20px; /* Adjust padding for smaller screens */
+    }
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 px 8px rgba(59, 9, 255, 0.2);
+    transition: transform 0.3, box-shadow 0.3;
+    font-family: monospace;
+}
+
+.card-header {
+    background-color: #f8f9fa; /* Light background for the card header */
+    font-size: 1.5rem; /* Larger font size for the card header */
+}
+
+.card-body {
+    padding: 2px; /* Padding for card content */
+}
+
+.carousel-inner img {
+    height: 500px; /* Adjust the height of the carousel images */
+    object-fit: cover; /* Ensure the images cover the container */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for captions */
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.features-list {
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 20px; /* Add padding to align bullets properly */
+}
+
+.features-list li {
+    margin-bottom: 50px; /* Add spacing between list items */
+}
+
+.features-header {
+    font-family: monospace;
+    text-align: center;
+    margin-top: 50px; /* Adjust spacing as needed */
+}
+
+.get-started-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
