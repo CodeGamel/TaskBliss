@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    margin: 20px;
+    padding-top: 1px;
     font-family: monospace;
 }
 
@@ -17,7 +18,7 @@ p {
 
 /* Header Styling */
 header {
-    background-color: #ffffff; /* Adjust color as needed */
+    background-color: #d6d6d6; /* Adjust color as needed */
     padding: 20px;
     font-family: monospace;
 }
@@ -30,19 +31,19 @@ header {
 
 /* Logo Styling */
 #logo {
-    height: 60px; /* Adjust size as needed */
+    height: 180px; /* Adjust size as needed */
     width: auto;
     border-radius: 50%;
 }
 
 
 .navbar {
-    background-color: #333;
+    background-color: #f2c4ce;
     font-family: monospace; /* Background color of the navbar */
 }
 
 .navbar-brand {
-    color: #fff; /* Color of the brand link */
+    color: #0f0505; /* Color of the brand link */
     font-size: 1.5rem; 
 }
 
@@ -55,22 +56,14 @@ header {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #ddd; /* Color of navbar links on hover */
+    color: #ffffff4d; /* Color of navbar links on hover */
+    padding-top: 10%
 }
 
-/* Dropdown Menu Styling */
-.navbar-nav .dropdown-menu {
-    background-color: #444; /* Background color of the dropdown menu */
-    border: none; /* Remove the border of the dropdown */
-}
-
-.navbar-nav .dropdown-menu .dropdown-item {
-    color: #fff; /* Color of the dropdown links */
-}
 
 .navbar-nav .dropdown-menu .dropdown-item:hover {
-    background-color: #555; /* Background color of dropdown links on hover */
-    color: #fff; /* Color of dropdown links on hover */
+    background-color: #020000; /* Background color of dropdown links on hover */
+    color: #ffffff; /* Color of dropdown links on hover */
 }
 
 /* Responsive Adjustments */
@@ -90,16 +83,16 @@ header {
     }
 }
 
-.card {
-    border-radius: 15px;
-    box-shadow: 0 px 8px rgba(59, 9, 255, 0.2);
+.card-body {
     transition: transform 0.3, box-shadow 0.3;
     font-family: monospace;
+    background-color: #f2c4ce;
 }
 
 .card-header {
-    background-color: #f8f9fa; /* Light background for the card header */
-    font-size: 1.5rem; /* Larger font size for the card header */
+    background-color: #faf8f852; /* Light background for the card header */
+    font-size: 35px; /* Larger font size for the card header */
+    color: #2c2b30; 
 }
 
 .card-body {
@@ -120,16 +113,19 @@ header {
 .features-list {
     list-style-type: disc; /* Use disc bullets */
     padding-left: 20px; /* Add padding to align bullets properly */
+    color: #f2c4CE
 }
 
 .features-list li {
     margin-bottom: 50px; /* Add spacing between list items */
+    color: #f2c4CE
 }
 
 .features-header {
     font-family: monospace;
     text-align: center;
     margin-top: 50px; /* Adjust spacing as needed */
+    color: #f2c4CE
 }
 
 .get-started-btn {
